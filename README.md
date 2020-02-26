@@ -14,15 +14,20 @@ I am assuming you have Python 3.x or higher is installed.
 
 You do not need a virtual environment since you do not need to pip install any requirements. However if you want to (since it is a good practice afterall...), you can do this (example iOS)
 
-# create virutal environment:
-
+### create virutal environment:
+```
 $ python3 -m venv env
+```
 
-# activate virutal env
+### activate virutal env
+```
 $ source env/bin/activate
+```
 
-# To run:
+### To run:
+```
 § python3 oop.py
+```
 
 The file should now run in your terminal.
 
