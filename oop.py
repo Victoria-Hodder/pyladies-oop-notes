@@ -14,11 +14,15 @@ Purpose of talk:
 
 """
 
+class Empty:
+    pass
+
 class Pyladies:
-    #class attribute
+    #class attribute/variable
     category = "Pythonista"
 
-    #instance attribute
+    #instance attribute/variable
+    # __init__ also known as a constructor
     def __init__(self, name, strength, job):
         self.name = name
         self.strength = strength
@@ -124,5 +128,6 @@ Resources:
 https://www.programiz.com/python-programming/object-oriented-programming
 Corey Schafer - OOP tutorials
 (put links in slide)
+https://www.geeksforgeeks.org/object-oriented-programming-in-python-set-1-class-and-its-members/
 
 """
