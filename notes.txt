@@ -1,3 +1,11 @@
+To do:
+- reserach super() function
+- write code for class based and function based
+- Tips and resources page
+- cont slides 
+- add slides to readme.md
+
+
 class Parrot:
 
     # class attribute

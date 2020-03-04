@@ -71,7 +71,7 @@ class DjangoUser(Developers):
 
     def __init__(self):
         # call super() function
-        super().__init__()
+        super().__init__() # not sure what this is for??!?!?! 
         print("DjangoUser is ready\n")
 
     def whoisThis(self):
