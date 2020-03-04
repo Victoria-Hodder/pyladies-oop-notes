@@ -17,6 +17,7 @@ Purpose of talk:
 class Empty:
     pass
 
+# parent class
 class Pyladies:
     #class attribute/variable
     category = "Pythonista"
@@ -35,7 +36,6 @@ class Pyladies:
     def fave_subjects(self, subject):
         return f"{self.name} loves to learn about {subject}"
 
-#next time write a child class which inherits from Pyladies
 
 # instantiate object
 Victoria = Pyladies("Victoria", "Django", "Software Developer")
@@ -50,78 +50,42 @@ print(Victoria.description())
 print(Jane.description())
 
 print(Victoria.fave_subjects("Docker"))
-print(Jane.fave_subjects("OOP and butterflies"))
+print(Jane.fave_subjects("OOP and butterflies\n"))
 
 
-"""
-class Parrot:
+#parent class
+class Developers():
 
-    # class attribute
-    species = "bird"
-
-    # instance attribute
-    def __init__(self, name, age):
-        self.name = name
-        self.age = age
-
-    # instance method
-    def sing(self, song):
-        return f"{self.name} sings {song}"
-
-    def dance(self):
-        return f"{self.name} is now dancing"
-
-# instantiate the object
-blu = Parrot("Blu", 10)
-
-# call our instance methods
-print(blu.sing("'Happy'"))
-print(blu.dance())
-
-# instantiate the Parrot class
-blu = Parrot("Blu", 10)
-woo = Parrot("Woo", 15)
-
-# access the class attributes
-print(f"Blu is a {blu.__class__.species}")
-print(f"Woo is also a {woo.__class__.species}"
-
-# access the instance attributes
-print(f"{blu.name} is {blu.age} years old")
-print(f"{woo.name} is {woo.age} years old")
-
-
-# parent class
-class Bird():
     def __init__(self):
-        print("Bird is ready")
+        print("Developer is ready\n")
 
     def whoisThis(self):
-        print("Bird")
+        print("Developer\n")
 
-    def swim(self):
-        print("Swim faster")
+    def typing(self):
+        print("Type faster\n")
 
-# child class
-class Penguin(Bird):
+
+#child class
+class DjangoUser(Developers):
 
     def __init__(self):
         # call super() function
         super().__init__()
-        print("Penguin is ready")
+        print("DjangoUser is ready\n")
 
     def whoisThis(self):
-        print("Penguin")
+        print("DjangoUser\n")
 
-    def run(self):
-        print("Run faster")
+    def migrate(self):
+        print("Migrate faster\n")
 
-peggy = Penguin()
-peggy.whoisThis()
-peggy.swim()
-peggy.run()
-
-"""
+sam = Developers()
+victoria = DjangoUser()
+sam.whoisThis()
+victoria.whoisThis()
+sam.typing()
+victoria.migrate()
 
 """
 Resources:
