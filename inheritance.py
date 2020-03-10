@@ -27,3 +27,37 @@ print('')
 bat = NonMarineMammal('Bat')
 
 #resource: https://www.programiz.com/python-programming/methods/built-in/super
+
+#parent class
+class Developers():
+
+    def __init__(self):
+        print("Developer is ready\n")
+
+    def whoisThis(self):
+        print("Developer\n")
+
+    def typing(self):
+        print("Type faster\n")
+
+
+#child class
+class DjangoUser(Developers):
+
+    def __init__(self):
+        # call super() function
+        super().__init__() # not sure what this is for??!?!?! 
+        print("DjangoUser is ready\n")
+
+    def whoisThis(self):
+        print("DjangoUser\n")
+
+    def migrate(self):
+        print("Migrate faster\n")
+
+sam = Developers()
+victoria = DjangoUser()
+sam.whoisThis()
+victoria.whoisThis()
+sam.typing()
+victoria.migrate()

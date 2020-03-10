@@ -30,12 +30,14 @@ class Pyladies:
         self.job = job
 
     #instance method
-    def description(self):
-        return f"{self.name} is a {self.job} who is really good at {self.strength}"
+    def typing(self):
+        return f"{self.name} is now typing"
 
-    def fave_subjects(self, subject):
+    def learning(self, subject):
         return f"{self.name} loves to learn about {subject}"
 
+    def skills(self):
+        return f"{self.name} is a {self.job} who is really good at {self.strength}"
 
 # instantiate object
 Victoria = Pyladies("Victoria", "Django", "Software Developer")
@@ -46,46 +48,15 @@ print(f"Victoria is a {Victoria.__class__.category}")
 print(f"Jane is also a {Jane.__class__.category}")
 
 # call instance methods
-print(Victoria.description())
-print(Jane.description())
+print(Victoria.skills())
+print(Jane.skills())
 
-print(Victoria.fave_subjects("Docker"))
-print(Jane.fave_subjects("OOP and butterflies\n"))
+print(Victoria.learning("Docker"))
+print(Jane.learning("OOP and butterflies"))
 
+print(Victoria.typing())
+print("\n")
 
-#parent class
-class Developers():
-
-    def __init__(self):
-        print("Developer is ready\n")
-
-    def whoisThis(self):
-        print("Developer\n")
-
-    def typing(self):
-        print("Type faster\n")
-
-
-#child class
-class DjangoUser(Developers):
-
-    def __init__(self):
-        # call super() function
-        super().__init__() # not sure what this is for??!?!?! 
-        print("DjangoUser is ready\n")
-
-    def whoisThis(self):
-        print("DjangoUser\n")
-
-    def migrate(self):
-        print("Migrate faster\n")
-
-sam = Developers()
-victoria = DjangoUser()
-sam.whoisThis()
-victoria.whoisThis()
-sam.typing()
-victoria.migrate()
 
 """
 Resources:
