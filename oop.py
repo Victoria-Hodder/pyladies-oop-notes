@@ -13,31 +13,41 @@ Purpose of talk:
     I have used at the end so you can continue practicing and expanding your knowledge.
 
 """
+def printPyLadies():
+    print("Yay, PyLadies")
+
+statement = printPyLadies()
+print(statement)
 
 class Empty:
     pass
 
-# parent class
 class Pyladies:
     #class attribute/variable
     category = "Pythonista"
 
     #instance attribute/variable
     # __init__ also known as a constructor
-    def __init__(self, name, strength, job):
+    #Difference between attribute / variable here
+    # why do we have this init method??
+
+    def __init__(self, name, strength, job): #parameters... arguments??
         self.name = name
         self.strength = strength
         self.job = job
 
     #instance method
+    def skills(self):
+        return f"{self.name} is a {self.job} who is really good at {self.strength}"    
+
     def typing(self):
         return f"{self.name} is now typing"
 
     def learning(self, subject):
         return f"{self.name} loves to learn about {subject}"
 
-    def skills(self):
-        return f"{self.name} is a {self.job} who is really good at {self.strength}"
+#self, name, strength, job
+    
 
 # instantiate object
 Victoria = Pyladies("Victoria", "Django", "Software Developer")
@@ -55,7 +65,7 @@ print(Victoria.learning("Docker"))
 print(Jane.learning("OOP and butterflies"))
 
 print(Victoria.typing())
-print("\n")
+
 
 
 """
@@ -64,5 +74,7 @@ https://www.programiz.com/python-programming/object-oriented-programming
 Corey Schafer - OOP tutorials
 (put links in slide)
 https://www.geeksforgeeks.org/object-oriented-programming-in-python-set-1-class-and-its-members/
+https://medium.com/swlh/everything-is-an-object-in-python-learn-to-use-functions-as-objects-ace7f30e283e
+
 
 """

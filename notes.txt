@@ -1,9 +1,22 @@
 To do:
 - reserach super() function
-- write code for class based and function based
-- Tips and resources page
 - cont slides 
 - add slides to readme.md
+
+
+Speaker notes:
+Classes often have methods, which are functions that are associated with a particular class, 
+and do things associated with the thing that the class is - but if all you want is to do something, 
+a function is all you need.
+
+Essentially, a class is a way of grouping functions (as methods) and data (as properties) into a 
+logical unit revolving around a certain kind of thing. If you don't need that grouping, there's no 
+need to make a class.
+
+
+Pyladies is an object,
+name, strength, job are attributes
+typing, learning, skills are behaviors
 
 
 class Parrot:
