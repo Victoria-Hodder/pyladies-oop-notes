@@ -32,3 +32,7 @@ $ source env/bin/activate
 The file should now run in your terminal.
 
 Let me know if you face any problems! And enjoy!!
+
+## Slides:
+
+Slides coming in a link sooooooooooooooon....!
