@@ -17,6 +17,13 @@ Pyladies is an object,
 name, strength, job are attributes
 typing, learning, skills are behaviors
 
+https://stackoverflow.com/questions/625083/what-init-and-self-do-on-python
+
+The __init__ method is roughly what represents a constructor in Python. When you call A() 
+Python creates an object for you, and passes it as the first parameter to the __init__ method. 
+Any additional parameters (e.g., A(24, 'Hello')) will also get passed as arguments--in this case 
+causing an exception to be raised, since the constructor isn't expecting them.
+
 
 class Parrot:
 

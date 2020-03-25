@@ -31,7 +31,7 @@ class Pyladies:
     #Difference between attribute / variable here
     # why do we have this init method??
 
-    def __init__(self, name, strength, job): #parameters... arguments??
+    def __init__(self, name, strength, job): #self = parameter, others = parameters passed as arguments
         self.name = name
         self.strength = strength
         self.job = job
