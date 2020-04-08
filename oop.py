@@ -1,11 +1,3 @@
-def printPyLadies():
-    print("Yay, PyLadies")
-
-print(printPyLadies())
-
-statement = printPyLadies()
-print(statement)
-
 class Empty:
    pass
 
@@ -46,15 +38,3 @@ print(Victoria.typing())
 
 print(Victoria.learning("Docker"))
 print(Jane.learning("OOP and butterflies"))
-
-
-"""
-Resources:
-https://www.programiz.com/python-programming/object-oriented-programming
-Corey Schafer - OOP tutorials
-(put links in slide)
-https://www.geeksforgeeks.org/object-oriented-programming-in-python-set-1-class-and-its-members/
-https://medium.com/swlh/everything-is-an-object-in-python-learn-to-use-functions-as-objects-ace7f30e283e
-
-
-"""

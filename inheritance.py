@@ -1,3 +1,11 @@
+"""
+
+I didn't include inheritance in the talk. It is here for extra info.
+
+"""
+
+
+
 class Animal:
   def __init__(self, Animal):
     print(Animal, 'is an animal.')

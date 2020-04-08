@@ -36,3 +36,7 @@ Let me know if you face any problems! And enjoy!!
 ## Slides:
 
 Slides coming in a link sooooooooooooooon....!
+
+## Resources
+
+See slides or `resources_list.py` file
