@@ -1,42 +1,25 @@
-"""
-What the f**k is an attribute?
-
-Purpose of talk:
-    To explain basic principles of OOP
-    Give an intro to terminology
-
-    Why? Because this vocabulary comes up in tutorials, algorithm practice and, most importantly, interviews!
-    Personal motivation: I didn't understand instructions until I started to get an idea for these concepts. Learning about it deepened
-    my knowledge and understanding of Python. Then I met many other "Quereinsteiger"s like myself and found this was quite a common
-    thing. So I decided to put together a little tutorial about it. Please bear in mind, I'm really touching the surface here and also
-    there are still gaps in my knowledge, so if anyone wants to step in at any point and correct me please do! I will list resources
-    I have used at the end so you can continue practicing and expanding your knowledge.
-
-"""
 def printPyLadies():
     print("Yay, PyLadies")
+
+print(printPyLadies())
 
 statement = printPyLadies()
 print(statement)
 
 class Empty:
-    pass
+   pass
 
 class Pyladies:
     #class attribute/variable
     category = "Pythonista"
 
-    #instance attribute/variable
-    # __init__ also known as a constructor
-    #Difference between attribute / variable here
-    # why do we have this init method??
-
-    def __init__(self, name, strength, job): #self = parameter, others = parameters passed as arguments
-        self.name = name
+    def __init__(self, name, strength, job): #parameters/arguments
+        self.name = name     #instance attribute/variable
         self.strength = strength
         self.job = job
+    # __init__ (called constructor in other languages)
 
-    #instance method
+    #instance method (a function that is associated with a class)
     def skills(self):
         return f"{self.name} is a {self.job} who is really good at {self.strength}"    
 
@@ -46,8 +29,6 @@ class Pyladies:
     def learning(self, subject):
         return f"{self.name} loves to learn about {subject}"
 
-#self, name, strength, job
-    
 
 # instantiate object
 Victoria = Pyladies("Victoria", "Django", "Software Developer")
@@ -61,11 +42,10 @@ print(f"Jane is also a {Jane.__class__.category}")
 print(Victoria.skills())
 print(Jane.skills())
 
-print(Victoria.learning("Docker"))
-print(Jane.learning("OOP and butterflies"))
-
 print(Victoria.typing())
 
+print(Victoria.learning("Docker"))
+print(Jane.learning("OOP and butterflies"))
 
 
 """

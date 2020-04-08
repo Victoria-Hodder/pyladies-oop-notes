@@ -1,7 +1,16 @@
-To do:
-- reserach super() function
-- cont slides 
-- add slides to readme.md
+Bio: 
+Originally a historian turned English teacher, Victoria started to train as a developer 2 years ago as a way to 
+find a new direction in life. She recently applied for Rails Girls Summer of Code and is currently working on 
+a mental health open source project.
+
+Abstract: Classes, methods, attributes? What are these things? 
+What does it mean when it asks me to instantiate an object? What do I call and when?
+In this talk, all of these questions will be answered and more as we take a look at OOP
+and the language we use to work with it.
+
+Warning: this talk includes some explicit language.
+
+Proficiency: Basic understanding of Python is more than enough.
 
 
 Speaker notes:
@@ -13,9 +22,6 @@ Essentially, a class is a way of grouping functions (as methods) and data (as pr
 logical unit revolving around a certain kind of thing. If you don't need that grouping, there's no 
 need to make a class.
 
-Pyladies is an object,
-name, strength, job are attributes
-typing, learning, skills are behaviors
 
 https://stackoverflow.com/questions/625083/what-init-and-self-do-on-python
 
