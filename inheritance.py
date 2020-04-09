@@ -4,6 +4,7 @@ I didn't include inheritance in the talk. It is here for extra info.
 
 """
 
+#resource: https://www.programiz.com/python-programming/methods/built-in/super
 
 
 class Animal:
@@ -34,7 +35,8 @@ d = Dog()
 print('')
 bat = NonMarineMammal('Bat')
 
-#resource: https://www.programiz.com/python-programming/methods/built-in/super
+
+""" My own code for playing purposes"""
 
 #parent class
 class Developers():
