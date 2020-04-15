@@ -35,7 +35,8 @@ Let me know if you face any problems! And enjoy!!
 
 ## Slides:
 
-Slides coming in a link sooooooooooooooon....!
+Here are the slides :)
+https://docs.google.com/presentation/d/1akYiXfSdWxXKmN-BDRaLcRV8uZsq07jfU9qQVJystxQ/edit?usp=sharing
 
 ## Resources
 
