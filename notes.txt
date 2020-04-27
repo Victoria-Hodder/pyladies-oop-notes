@@ -1,0 +1,17 @@
+Classes often have methods, which are functions that are associated with a particular class, 
+and do things associated with the thing that the class is - but if all you want is to do something, 
+a function is all you need.
+
+Essentially, a class is a way of grouping functions (as methods) and data (as properties) into a 
+logical unit revolving around a certain kind of thing. If you don't need that grouping, there's no 
+need to make a class.
+
+
+https://stackoverflow.com/questions/625083/what-init-and-self-do-on-python
+
+The __init__ method is roughly what represents a constructor in Python. When you call A() 
+Python creates an object for you, and passes it as the first parameter to the __init__ method. 
+Any additional parameters (e.g., A(24, 'Hello')) will also get passed as arguments--in this case 
+causing an exception to be raised, since the constructor isn't expecting them.
+
+
