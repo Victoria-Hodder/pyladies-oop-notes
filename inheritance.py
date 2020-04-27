@@ -2,9 +2,9 @@
 
 I didn't include inheritance in the talk. It is here for extra info.
 
-"""
+resource: https://www.programiz.com/python-programming/methods/built-in/super
 
-#resource: https://www.programiz.com/python-programming/methods/built-in/super
+"""
 
 
 class Animal:
